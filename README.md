@@ -1,6 +1,6 @@
-<h1>#introdução-ao-PWM:</h1>
+<h1>#Introdução-ao-PWM:</h1>
 <p>PWM (Pulse-width modulation / modulação por largura de pulso) é uma técnica utilizada para permitir o controle da energia fornecida a equipamentos elétricos, como servomotores e dispositivos de iluminação.<p>
-<h1>##Funcionamento:</h1>
+<h1>##Funcionamento do PWM:</h1>
 <p>O PWM funciona modulando o ciclo ativo (duty cicle) de uma onda quadrada.  O controlador (fonte de tensão com PWM) entrega uma série de pulsos, gerados em intervalos de igual duração, que pode ser variada. Quanto mais largo o pulso, maior a quantidade de corrente fornecida à carga.<p>
 
 
@@ -31,7 +31,7 @@
 
 <div align=center>
 
-<img height="200em" src="./schematics/pwm-controller-schematic.png">
+<img height="200em" src="./schematics/pwm-controller-schematic.PNG">
 
 </div>
 
