@@ -1,10 +1,10 @@
-#introdução-ao-PWM:
+<h1>#introdução-ao-PWM:</h1>
 <p>PWM (Pulse-width modulation / modulação por largura de pulso) é uma técnica utilizada para permitir o controle da energia fornecida a equipamentos elétricos, como servomotores e dispositivos de iluminação.<p>
-##Funcionamento:
+<h1>##Funcionamento:</h1>
 <p>O PWM funciona modulando o ciclo ativo (duty cicle) de uma onda quadrada.  O controlador (fonte de tensão com PWM) entrega uma série de pulsos, gerados em intervalos de igual duração, que pode ser variada. Quanto mais largo o pulso, maior a quantidade de corrente fornecida à carga.<p>
 
 
-<h1>Componentes necessários.<h1>
+<h1>Componentes necessários.</h1>
 
 <p>Arduino Nano.<p>
 <p>Resistor.<p>
@@ -16,17 +16,10 @@
 <p>Oscilloscope.<p>
 <p>DC Voltometer.<p>
 
-#Esquemático 
+<h1>#Esquemático: </h1>
 
 <p>Esquemático do circuito de modulação de largura de pulsos, feito no proteus.<p>
 
-
-
-<div align=center>
-
-<img height="200em" src="./schematics/pwm-controller-schematic.png">
-
-</div>
 
 <div align=center>
 
@@ -34,7 +27,15 @@
 
 </div>
 
-<h1>Código Fonte.<h1>
+<h1>Schematic Capture PDF.<h1>
+
+<div align=center>
+
+<img height="200em" src="./schematics/pwm-controller-schematic.png">
+
+</div>
+
+<h1>Código Fonte.</h1>
 
 #include <Arduino.h>
 
@@ -73,7 +74,7 @@ void loop() {
     }
   }
 
-  #Funcionamento do prijeto:
+ <h1> #Funcionamento do projeto: </h1>
   <p>Para este projeto foi utiilizado o programa Proteus 8 Professional, bastante utilizado para montar circuitos, onde temos a visão do Esquemático, do Pcb Layout e a Visão 3D.<p>
 
 <div align=center>
